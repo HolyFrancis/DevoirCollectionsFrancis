@@ -50,4 +50,9 @@ if __name__=='__main__':
     listes.sort()
     print(listes,"\n\n")
     
+    # 9. affiche la sens au sens inverse
+    print("-----afichage en sen inverse de la liste--------\n")
+    listes.reverse()
+    print(listes,"\n\n")
+    
 
