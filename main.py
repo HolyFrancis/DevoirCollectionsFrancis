@@ -62,6 +62,14 @@ if __name__=='__main__':
     
     # 11. supprime la liste
     del listes
+    
+    
+    #II
+    print("LES TUPLES")
+    #1.
+    print("-----l'occurence de la valeur '3' dans le tuple----\n")
+    tupl=(2,4,3,7,28,18,3,24,3,17)
+    print(tupl.count(3),"\n\n")
 
     
     
