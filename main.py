@@ -19,4 +19,12 @@ for list in listes:
     if 'a' in list:
         liste_copy.append(list)
 
-print(liste_copy)
+print(liste_copy,"\n\n")
+
+#4. ajouter un elemet à la fin de la liste
+print("ajouter un element à la fin de la liste\n\n")
+listes.append("Samuel")
+print(listes,"\n")
+
+
+
