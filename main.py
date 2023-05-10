@@ -55,4 +55,9 @@ if __name__=='__main__':
     listes.reverse()
     print(listes,"\n\n")
     
+    # 10 . vider la list
+    print("----clear the list-------\n")
+    listes.clear()
+    print(listes,"\n\n")
+    
 
