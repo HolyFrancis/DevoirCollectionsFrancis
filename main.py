@@ -70,6 +70,10 @@ if __name__=='__main__':
     print("-----l'occurence de la valeur '3' dans le tuple----\n")
     tupl=(2,4,3,7,28,18,3,24,3,17)
     print(tupl.count(3),"\n\n")
+    
+    #2.
+    print("----contenu de l'element n°5-----\n")
+    print(tupl[4],"\n\n")
 
     
     
