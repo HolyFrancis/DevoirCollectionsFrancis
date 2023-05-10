@@ -60,4 +60,9 @@ if __name__=='__main__':
     listes.clear()
     print(listes,"\n\n")
     
+    # 11. supprime la liste
+    del listes
+
+    
+    
 
