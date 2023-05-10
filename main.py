@@ -22,9 +22,12 @@ for list in listes:
 print(liste_copy,"\n\n")
 
 #4. ajouter un elemet à la fin de la liste
-print("ajouter un element à la fin de la liste\n\n")
+print("-----ajouter un element à la fin de la liste\n------")
 listes.append("Samuel")
-print(listes,"\n")
+print(listes,"\n\n")
 
 
-
+#5. ajout de l'element à l'index n°2
+print("------ajout d'un element à l'index n°2\n------")
+listes.insert(2,'Suzan')
+print(listes,"\n\n")
