@@ -45,4 +45,9 @@ if __name__=='__main__':
     listes.pop(2)
     print(listes,"\n\n")
     
+    # 8. ordonner la list
+    print("-------la liste ordonée--------\n")
+    listes.sort()
+    print(listes,"\n\n")
+    
 
