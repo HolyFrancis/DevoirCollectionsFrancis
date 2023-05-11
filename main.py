@@ -144,6 +144,12 @@ if __name__=='__main__':
     print('---affichage des valeurs')
     for v in cours.values():
         print(v)
+        
+    #4.
+    print("\n---affiche les cles et valeurs sous le format cle:valeur")
+    
+    for key in cours:
+        print(key,": ",cours[key])
     
     
     
