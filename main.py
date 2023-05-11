@@ -133,7 +133,11 @@ if __name__=='__main__':
             9:'entrepreuneriat',
             10:'algorithmique'
             }
-    print(cours)
+    print(cours,'\n')
+    
+    #2. affiche les clés
+    print("---affichage des clés----")
+    print(cours.keys(),'\n')
     
     
     
