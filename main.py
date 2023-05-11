@@ -119,4 +119,22 @@ if __name__=='__main__':
     del animaux
     
     
+    #IV. DICTIONNAIRE
+    #1.
+    print("---creation et affichage du dictionnaire")
+    cours={1:'math',
+            2:'francais',
+            3:'anglais',
+            4:'python',
+            5:'java',
+            6:'linux',
+            7:'mac',
+            8:'kiswahili',
+            9:'entrepreuneriat',
+            10:'algorithmique'
+            }
+    print(cours)
+    
+    
+    
     
