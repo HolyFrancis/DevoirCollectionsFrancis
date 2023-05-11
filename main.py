@@ -74,6 +74,13 @@ if __name__=='__main__':
     #2.
     print("----contenu de l'element n°5-----\n")
     print(tupl[4],"\n\n")
+    
+    #3. ordonner la tuple
+    #convert tuple into list for updating tuple
+    t=list(tupl)
+    print(t)
+    t.sort()
+    print(t,"\n\n")
 
     
     
