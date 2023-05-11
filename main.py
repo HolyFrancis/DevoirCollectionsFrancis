@@ -151,5 +151,10 @@ if __name__=='__main__':
     for key in cours:
         print(key,": ",cours[key])
     
+    #5.supprime l'element à la clé n°2
+    print("\n----suupression de l'element à la cle n° 2----\n")
+    cours.pop(2)
+    print(cours)
+    
     
     
