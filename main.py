@@ -91,3 +91,10 @@ if __name__=='__main__':
     tu.insert(3,40)
     print(tu)
     
+    #6. affiche la nouvelle tuple
+    print("affichage de la nouvelle tuple")
+    
+    #reconvert the list into tuple
+    tupl=tuple(tu)
+    print(tupl)
+    
