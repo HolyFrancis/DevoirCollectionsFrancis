@@ -156,5 +156,11 @@ if __name__=='__main__':
     cours.pop(2)
     print(cours)
     
+    #6.
+    print("\n----Affiche l'élément de la clé numéro 5-----\n")
+    print(cours.get(5))
+    
+    
+    
     
     
