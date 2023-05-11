@@ -93,8 +93,15 @@ if __name__=='__main__':
     
     #6. affiche la nouvelle tuple
     print("affichage de la nouvelle tuple")
-    
     #reconvert the list into tuple
     tupl=tuple(tu)
-    print(tupl)
+    print(tupl,'\n\n')
+    
+    
+    #III. LES SETS
+    #1.set creation
+    print("---creation et affichage du SET-----")
+    animaux={'lion','tigre','lapin','bufle','vache','antilope','aigle','poisson','pigeon','mouton'}
+    print(animaux)
+    
     
