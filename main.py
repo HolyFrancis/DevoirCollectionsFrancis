@@ -81,3 +81,7 @@ if __name__=='__main__':
     tu.sort()
     print(tu,"\n\n")
     
+    #4. append an element to the tuple
+    print("ajout d'un element dans le tuple")
+    tu.append(20)
+    print(tu)
