@@ -66,12 +66,12 @@ if __name__=='__main__':
     
     #II
     print("LES TUPLES")
-    #1.
+    #1. tuple creation 
     print("-----l'occurence de la valeur '3' dans le tuple----\n")
     tupl=(2,4,3,7,28,18,3,24,3,17)
     print(tupl.count(3),"\n\n")
     
-    #2.
+    #2. display n°5 element
     print("----contenu de l'element n°5-----\n")
     print(tupl[4],"\n\n")
     
@@ -120,7 +120,7 @@ if __name__=='__main__':
     
     
     #IV. DICTIONNAIRE
-    #1.
+    #1. dict creation
     print("---creation et affichage du dictionnaire")
     cours={1:'math',
             2:'francais',
@@ -145,7 +145,7 @@ if __name__=='__main__':
     for v in cours.values():
         print(v)
         
-    #4.
+    #4. display key and value
     print("\n---affiche les cles et valeurs sous le format cle:valeur")
     
     for key in cours:
@@ -156,11 +156,11 @@ if __name__=='__main__':
     cours.pop(2)
     print(cours)
     
-    #6.
+    #6.display n° 5 element
     print("\n----Affiche l'élément de la clé numéro 5-----\n")
     print(cours.get(5))
     
-    #7.
+    #7. aad new element
     print("\n---Ajouter un nouvel élément-----\n")
     cours.setdefault(11,"datamining")
     print(cours)
