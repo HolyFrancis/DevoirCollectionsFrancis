@@ -102,6 +102,12 @@ if __name__=='__main__':
     #1.set creation
     print("---creation et affichage du SET-----")
     animaux={'lion','tigre','lapin','bufle','vache','antilope','aigle','poisson','pigeon','mouton'}
-    print(animaux)
+    print(animaux,'\n')
+    
+    #2. add an element
+    print("---ajout d'un element dans le set----")
+    animaux.add('serpent')
+    print(animaux,'\n')
+    
     
     
