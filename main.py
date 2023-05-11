@@ -137,8 +137,13 @@ if __name__=='__main__':
     
     #2. affiche les clés
     print("---affichage des clés----")
-    print(cours.keys(),'\n')
+    for k in cours.keys():
+        print(k,'\n')
     
+    #3. affiche les valeurs
+    print('---affichage des valeurs')
+    for v in cours.values():
+        print(v)
     
     
     
