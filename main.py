@@ -114,5 +114,9 @@ if __name__=='__main__':
     animaux.remove('bufle')
     print(animaux,'\n')
     
+    #4. delete the set
+    print("---suppression de la set----")
+    del animaux
+    
     
     
