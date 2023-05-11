@@ -85,3 +85,9 @@ if __name__=='__main__':
     print("ajout d'un element dans le tuple")
     tu.append(20)
     print(tu)
+    
+    #5. insert on the index 3
+    print("------ajout d'un element à l'index 3")
+    tu.insert(3,40)
+    print(tu)
+    
