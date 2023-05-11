@@ -1,6 +1,6 @@
 
 if __name__=='__main__':
-
+    """"
     # I. List of 10 Strings
 
     #1. creation de la Liste 
@@ -62,7 +62,7 @@ if __name__=='__main__':
     
     # 11. supprime la liste
     del listes
-    
+    """
     
     #II
     print("LES TUPLES")
@@ -75,13 +75,9 @@ if __name__=='__main__':
     print("----contenu de l'element n°5-----\n")
     print(tupl[4],"\n\n")
     
-    #3. ordonner la tuple
-    #convert tuple into list for updating tuple
-    t=list(tupl)
-    print(t)
-    t.sort()
-    print(t,"\n\n")
-
+    #.3 convert the tuple into list for sort the tuple
+    print("tuple ordonnéé")
+    tu=list(tupl)
+    tu.sort()
+    print(tu,"\n\n")
     
-    
-
