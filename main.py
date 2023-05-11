@@ -160,6 +160,10 @@ if __name__=='__main__':
     print("\n----Affiche l'élément de la clé numéro 5-----\n")
     print(cours.get(5))
     
+    #7.
+    print("\n---Ajouter un nouvel élément-----\n")
+    cours.setdefault(11,"datamining")
+    print(cours)
     
     
     
