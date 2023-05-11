@@ -165,6 +165,11 @@ if __name__=='__main__':
     cours.setdefault(11,"datamining")
     print(cours)
     
+    #8.copy of the dict
+    print("\n----creation d'une copie du dictionnaire-----\n")
+    cours_copy=cours.copy()
+    print(cours_copy)
+    
     
     
     
