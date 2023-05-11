@@ -109,5 +109,10 @@ if __name__=='__main__':
     animaux.add('serpent')
     print(animaux,'\n')
     
+    #3. remove an element
+    print("--supression de l'element 'bufle' ")
+    animaux.remove('bufle')
+    print(animaux,'\n')
+    
     
     
